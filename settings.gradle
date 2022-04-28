@@ -1,2 +1,4 @@
 rootProject.name = 'ArtificialIntelligenceAlgorithms'
+include 'water-jug'
+include 'common'
 
