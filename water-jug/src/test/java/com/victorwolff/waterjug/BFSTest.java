@@ -18,8 +18,8 @@ class BFSTest {
                 0 , 2
                 """;
 
-        String answer = bfs.solve();
+        String result = bfs.solve();
 
-        assertEquals(expected, answer);
+        assertEquals(expected, result);
     }
 }

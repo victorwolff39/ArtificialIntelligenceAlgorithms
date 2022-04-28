@@ -5,10 +5,10 @@ import com.victorwolff.common.Algorithm;
 import java.util.*;
 
 public class BFS implements Algorithm {
-    int firstJug;
-    int secondJug;
-    int target;
-    boolean[][] visited;
+    private final int firstJug;
+    private final int secondJug;
+    private final int target;
+    private final boolean[][] visited;
 
     public BFS(int firstJug, int secondJug, int target) {
         this.firstJug = firstJug;
